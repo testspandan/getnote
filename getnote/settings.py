@@ -25,7 +25,7 @@ SECRET_KEY = 'px@pv1arnz7v)z#%#dux$6zkrws_h4e6w%6*p42+(_43-henqz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 # using own Auth model instead of django in-built auth model
 AUTH_USER_MODEL = 'accounts.User'
